@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#04b7a8</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#216e67</color>
+
+    <!-- Background color for app -->
+    <color name="background">#FFFFFF</color>
+
+    <!-- Background color for the see category -->
+    <color name="see_category">#06c9b9</color>
+
+    <!-- Background color for the eat category -->
+    <color name="eat_category">#83cedf</color>
+
+    <!-- Background color for the sleep category -->
+    <color name="sleep_category">#04657b</color>
+
+    <!-- Background color for the visit category -->
+    <color name="visit_category">#16AFCA</color>
+</resources>

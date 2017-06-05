@@ -1,0 +1,49 @@
+package com.example.mara.tourguidezagreb;
+
+
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ListView;
+
+import java.util.ArrayList;
+
+/**
+ * A simple {@link Fragment} subclass.
+ */
+public class EatFragment extends Fragment {
+
+
+    public EatFragment() {
+        // Required empty public constructor
+    }
+
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View rootView = inflater.inflate(R.layout.list, container, false);
+
+        //Create a list of Eat Place
+        final ArrayList<Place> categories = new ArrayList<>();
+        categories.add(new Place(R.string.restaurant_ab_ovo, R.string.info_la_ab_ovo, R.drawable.abovo));
+        categories.add(new Place(R.string.restaurant_zinfandel, R.string.info_zinfandel, R.drawable.zinfandels));
+        categories.add(new Place(R.string.restaurant_la_struk, R.string.info_la_struk, R.drawable.lastruk));
+        categories.add(new Place(R.string.restaurant_zrno, R.string.info_zrno, R.drawable.zrno));
+        categories.add(new Place(R.string.restaurant_rocket, R.string.info_rocket_burger, R.drawable.rocketburger));
+
+        //Create the adapter for Place
+        CategoryAdapter adapter;
+        adapter = new CategoryAdapter(getActivity(), categories, R.color.eat_category);
+
+        ListView listView = (ListView) rootView.findViewById(R.id.list);
+
+        listView.setAdapter(adapter);
+
+        return rootView;
+    }
+}
+
+

@@ -1,0 +1,136 @@
+<resources>
+    <!-- Title for the app.-->
+    <string name="app_name">TourGuideZagreb</string>
+
+    <!-- Name for the eat category -->
+    <string name="eat_category">Eat</string>
+
+    <!-- Name for the sleep category -->
+    <string name="sleep_category">Sleep</string>
+
+    <!-- Name for the visit category -->
+    <string name="visit_category">Visit</string>
+
+    <!-- Name for the see category -->
+    <string name="see_category">See</string>
+
+    <string name="info_title">INFO</string>
+
+    <!-- Content for the eat category -->
+
+    <!-- Restaurant AbOvo -->
+    <string name="restaurant_ab_ovo">AbOvo</string>
+    <string name="des_ab_ovo_">Our concept is based on daily changing menu.
+        In our kitchen every day presents new beginning.
+        We work exclusively with fresh and local ingredients of known and verified origin.
+        $$-$$$
+        Mediterranean, European</string>
+    <string name="info_la_ab_ovo">Phone: +385 1 4678 554
+        Address: Bukovačka 27
+        10 000 Zagreb
+        E-mail: abovobistro@gmail.com</string>
+
+    <!-- Restaurant La Struk -->
+    <string name="restaurant_la_struk">La Struk</string>
+    <string name="des_la_struk">La Štruk serves only traditional Croatian specialty – štrukli,
+        a unique traditional Croatian dish served in most households across Hrvatsko Zagorje
+        and Zagreb. It is made from special dough and fresh cow cheese.
+        $
+        Croatian, Vegetarian</string>
+    <string name="info_la_struk">Phone: +385 1 4837 701
+        Address:Skalinska 5
+        10000 Zagreb
+        E-mail: lastruk.zg@gmail.com</string>
+
+    <!-- Restaurant Rocket Burger -->
+    <string name="restaurant_rocket">Rocket Burger</string>
+    <string name="des_rocket_burger">Rocket Burger is an American style Diner,
+        bringing burgers back to their basic form before fast food chains took them over.
+        $
+        American, Fast Food</string>
+    <string name="info_rocket_burger">Phone: +385 1 4845 386
+        Address: Tkalčićeva 50
+        E-mail: rocketburgerhr@gmail.com</string>
+
+    <!-- Restaurant Zinfandels -->
+    <string name="restaurant_zinfandel">Zinfandels Restaurant</string>
+    <string name="des_zinfandel">Zinfandel’s is widely regarded as the one of the best Zagreb restaurants.
+        Its innovative cuisine in a delightful setting includes terrace views and alfresco dining options.
+        $$$$
+        Contemporary, Croatian</string>
+    <string name="info_zinfandel">Phone: +385 1 4566 644
+        Address: Mihanovićeva 1
+        E-mail: zinfandels@esplanade.hr</string>
+
+    <!-- Restaurant Zrno -->
+    <string name="restaurant_zrno">Zrno bio bistro</string>
+    <string name="des_zrno">First certified 100% organic vegan restaurant in Zagreb.
+        We offer organic ingredients delivered each day directly from Croatias first organic
+        farm Zrno and warm sourdough bread from our own bakery.
+        $-$$
+        Organic, Vegan</string>
+    <string name="info_zrno">Phone: +385 1 4847 540
+        Address: Medulićeva 20
+        E-mail: restoran@bio-zrno.hr</string>
+
+    <!-- Content for the sleep category -->
+    <!-- Hotel Esplanade -->
+    <string name="hotel_esplanade">Hotel Esplanade</string>
+    <string name="five_stars">*****</string>
+    <string name="des_esplanade">Beautifully designed rooms blended with the delicate combination of
+        Art Deco heritage and contemporary touches. A long history of first-class service,
+        spectacular facilities and simply amazing food at a price you can afford.
+        Experience the true essence of luxury. Discover the iconic Esplanade Zagreb Hotel.
+        Address: Mihanovićeva 1, 10000 Zagreb, Croatia
+        Phone: +385 1 4566 666
+        E-mail: info@esplanade.hr</string>
+
+    <!-- Hotel DoubleTree -->
+    <string name="hotel_doubletree">DoubleTree by Hilton Hotel Zagreb</string>
+    <string name="four_stars">****</string>
+    <string name="des_doubletree">Ideally located in the heart of Zagrebs business district and
+        two kilometers from the historic city center, our award-winning DoubleTree by Hilton Zagreb
+        hotel is set within the Green Gold complex, offering great shopping and dining options.
+        Address: Ulica Grada Vukovara 269a, Zagreb, 10000, Croatia
+        Phone: +385-1-6001900</string>
+
+    <!-- Hotel Palace -->
+    <string name="hotel_palace">Hotel Palace</string>
+    <string name="des_palace">The Palace Hotel Zagreb, located in the centre of the palace
+        immediately next to the old city park, opened its doors in 1907 as the first official
+        hotel in Zagreb. The hotel successfully combines the comfort of a modern lifestyle
+        with a warm retro-chic atmosphere created by its stylish furniture and modernist interior.
+        Address:Trg J.J. Strossmayera 10
+        Phone: +385 1 4899 600
+        E-mail: palace@palace.hr</string>
+
+    <!-- Hotel Priča -->
+    <string name="hotel_prica">Hotel Priča</string>
+    <string name="three_stars">***</string>
+    <string name="des_prica">I guess my English name would be The Story Hotel, because story
+        means a\priča\ in Croatian. I got this name for being the only known hotel that talks
+        to its guests. a\Priča\ also means talks. All of my stories are nice and have a happy ending,
+        there is a lot of laughter, dancing, giggling, hugging and smiling going on…
+        Address: Samoborska cesta 214, 10436 Rakov Potok, Croatia
+        Phone: +385 1 6586 053
+        E-mail:hotel@hotelprica.com</string>
+
+    <!-- Hostel Swanky -->
+    <string name="hotel_swanky">Hostel Swanky</string>
+    <string name="two_stars">**</string>
+    <string name="des_swanky">The Swanky Mint is a renovated factory dating back to the
+        late 19th century. Combining the industrial machinery that littered the site with
+        new technology, the Mint has created a comfortable eco-friendly atmosphere that makes it
+        a very special place to visit. Private rooms, separate apartments, bed and breakfast,
+        dorm rooms big and small, all on offer here at unbeatable value.
+        Address: Ilica 50, Zagreb 10000, Croatia
+        Phone:+385 (01) 4004 248
+        Email: mint@swanky-hostel.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
+
+
