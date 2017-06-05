@@ -14,11 +14,11 @@ public class Place {
     /**
      * String resource for the name of each category
      */
-    private String mPlaceName;
+    private int mPlaceName;
     /**
      * String resource for the info of each category
      */
-    private String mPlaceInfo;
+    private int mPlaceInfo;
     /**
      * Image resource ID for each category
      */
@@ -27,7 +27,7 @@ public class Place {
     /**
      * Create a new Place object./
      */
-    public Place(String PlaceName, String PlaceInfo) {
+    public Place(int PlaceName, int PlaceInfo) {
         mPlaceName = PlaceName;
         mPlaceInfo = PlaceInfo;
     }
@@ -35,7 +35,7 @@ public class Place {
     /**
      * Create a new Place object./
      */
-    public Place(String PlaceName, String PlaceInfo, int ImageResourceId) {
+    public Place(int PlaceName, int PlaceInfo, int ImageResourceId) {
         mPlaceName = PlaceName;
         mPlaceInfo = PlaceInfo;
         mImageResourceId = ImageResourceId;
@@ -45,14 +45,14 @@ public class Place {
     /**
      * Get the string resource ID for each category.
      */
-    public String getPlaceName() {
+    public int getPlaceName() {
         return mPlaceName;
     }
 
     /**
      * Get the string resource ID for each category.
      */
-    public String getPlaceInfo() {
+    public int getPlaceInfo() {
         return mPlaceInfo;
     }
 
