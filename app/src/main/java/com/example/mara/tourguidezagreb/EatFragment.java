@@ -50,10 +50,6 @@ public class EatFragment extends Fragment {
         });
 
 
-        ListView listView = (ListView) rootView.findViewById(R.id.list);
-
-        listView.setAdapter(adapter);
-
         return rootView;
     }
 }
